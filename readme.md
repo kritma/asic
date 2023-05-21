@@ -1,5 +1,5 @@
 # Asic - easy async
-### **asic** uses macros to generate async functions
+### Asic uses macros to generate async functions
 
 **asic()** generates necessary functions. Put this in .c files
 ```cpp
