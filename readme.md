@@ -1,12 +1,12 @@
 # Asic - easy async
 ### **asic** uses macros to generate async functions
 
-**asic()** generates necessary functions put this in .c files
+**asic()** generates necessary functions. Put this in .c files
 ```cpp
 #define asic(func, return_type, args_types...)
 ```
 
-**asicDefinition()** generates definitions for promise type, wait and async functions put this in .h files
+**asicDefinition()** generates definitions for promise type, wait and async functions. Put this in .h files
 ```cpp
 #define asicDefinition(func, return_type, args_types...)
 ```
